@@ -2,14 +2,16 @@
 body {
     font-size: 15px;
     line-height: 24px;
-    font-family: 'futura_ltbook', sans-serif;
+    font-family: 'Lato', sans-serif;
     color: #484848;
 }
 h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
     text-transform: uppercase;
     color: #484848;
-    font-family: 'futura_ltbold', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+
 }
 h1{font-size: 70px; margin:0; line-height: 72px;}
 h2 {font-size: 30px; margin: 0 0 20px;}
@@ -147,7 +149,7 @@ a:hover,a:focus{ text-decoration: none}
 }
 .list-inline.info a,.list-inline.social_icon a {
     color: #222;
-    font-family: 'futura_ltbook', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 .list-inline.info a:hover,.list-inline.social_icon a:hover {
     color: #555;
@@ -167,6 +169,8 @@ nav.navbar.bootsnav {
 }
 nav.navbar.bootsnav ul.nav > li > a {
     color: #fff;
+    font-size: 16px;
+    font-weight: bold;
 }
 nav.navbar.bootsnav ul.nav > li > a:hover,nav.navbar.bootsnav ul.nav > li > a:focus {
     color: #aaa;
@@ -228,7 +232,7 @@ nav.navbar.bootsnav ul.nav > li > a:hover,nav.navbar.bootsnav ul.nav > li > a:fo
 }
 .carousel-caption > h3 {
     color: #fff;
-    font-family: "futura_ltbook",sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size: 40px;
     font-weight: normal;
     margin-bottom: 30px;
@@ -242,7 +246,8 @@ nav.navbar.bootsnav ul.nav > li > a:hover,nav.navbar.bootsnav ul.nav > li > a:fo
     background: #ffcb0f none repeat scroll 0 0;
     border-radius: 30px;
     color: #fff;
-    font-family: "futura_ltbold",sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
     font-size: 16px;
     padding: 10px 20px;
     text-transform: uppercase;
@@ -299,6 +304,10 @@ nav.navbar.bootsnav ul.nav > li > a:hover,nav.navbar.bootsnav ul.nav > li > a:fo
     background: url(../images/about_bg.png)no-repeat right;
 }
 
+.about_banner{
+    margin-top: 25px;
+}
+
 /*Head Title*/
 .head_title p{
     line-height: 2.3rem;
@@ -333,6 +342,11 @@ nav.navbar.bootsnav ul.nav > li > a:hover,nav.navbar.bootsnav ul.nav > li > a:fo
 .service_item > h3 {
     margin: 25px 0 15px;
 }
+
+.service_item > p {
+    height: 170px;
+}
+
 .service_item .btn.know_btn {
     margin: 20px 0 100px;
 }
@@ -490,7 +504,8 @@ nav.navbar.bootsnav ul.nav > li > a:hover,nav.navbar.bootsnav ul.nav > li > a:fo
 .testimonial_content p:first-child::before {
     color: #989898;
     content: ",,";
-    font-family: "GillSansMT-UltraBold";
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
     font-size: 60px;
     left: -54px;
     position: absolute;
@@ -521,7 +536,8 @@ nav.navbar.bootsnav ul.nav > li > a:hover,nav.navbar.bootsnav ul.nav > li > a:fo
     width: 80px;
 }
 .worker_name {
-    font-family: "futura_ltbold",sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
     margin: 10px 0 45px;
     text-transform: uppercase;
 }
@@ -537,12 +553,18 @@ nav.navbar.bootsnav ul.nav > li > a:hover,nav.navbar.bootsnav ul.nav > li > a:fo
 }
 #contact_form .second_heading {
     font-size: 40px;
-    font-family: "futura_ltbook",sans-serif;
+    font-family: 'Lato', sans-serif;
     margin:8px 0;
 }
 #contact_form form.form-inline {
     padding-right: 27px;
 }
+
+#contact_form textarea.form-control{
+    height: 80px !important;
+}
+
+
 #contact_form .form-inline .form-control {
     border: 2px solid transparent;
     border-radius: 10px;
@@ -611,7 +633,7 @@ footer::after {
 }
 .footer_item > h4 {
     color: #fff;
-    font-family: "futura_ltbook",sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size: 25px;
     margin-bottom: 34px;
     text-transform: inherit;
