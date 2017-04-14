@@ -11,7 +11,7 @@ jQuery(document).ready(function ($) {
             target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
             if (target.length) {
                 $('html,body').animate({
-                    scrollTop: (target.offset().top - 0)
+                    scrollTop: (target.offset().top - 100)
                 }, 1000);
                 if ($('.navbar-toggle').css('display') != 'none') {
                     $(this).parents('.container').find(".navbar-toggle").trigger("click");
